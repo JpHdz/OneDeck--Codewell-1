@@ -1,0 +1,151 @@
+/* 1 em = 16 px */
+/* Bellow 1024px */
+@media (max-width: 64em) {
+  .header {
+    margin-bottom: 6.4rem;
+  }
+  .main-info h1 {
+    font-size: 4.4rem;
+  }
+  .text-description {
+    font-size: 1.6rem;
+  }
+  .img-companies {
+    gap: 3.2rem;
+    width: 14rem;
+  }
+  .hidden-box {
+    padding: 2.4rem 3.6rem;
+    width: 36rem;
+  }
+  .item-title,
+  .item-description {
+    font-size: 1.2rem;
+  }
+}
+/* Below 880 px */
+@media (max-width: 55em) {
+  .header {
+    margin-bottom: 4.4rem;
+  }
+  .nav-list {
+    gap: 1.6rem;
+  }
+  .img-logo {
+    width: 8.6rem;
+  }
+  .try-links {
+    font-size: 1.4rem;
+  }
+  .main-content {
+    margin-bottom: 4.4rem;
+  }
+  .main-info h1 {
+    font-size: 3.6rem;
+  }
+  .text-description {
+    font-size: 1.4rem;
+  }
+  .try-for-free,
+  .try-for-free--main {
+    font-size: 1.4rem;
+  }
+  .img-companies {
+    width: 12rem;
+  }
+  .hidden-box:before {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+/* Below 784 px */
+@media (max-width: 49em) {
+  .item-title,
+  .item-description {
+    font-size: 1rem;
+  }
+  .try-links {
+    display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  .grid-2--columns {
+    gap: 2.4rem;
+  }
+  .header {
+    margin-bottom: 2.4rem;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .main-info h1 {
+    font-size: 2.8rem;
+  }
+  .text-description {
+    font-size: 1.2rem;
+  }
+  .img-companies {
+    width: 10rem;
+  }
+  .try-for-free--main {
+    font-size: 1.2rem;
+  }
+  .rating-info p {
+    font-size: 1.4rem;
+  }
+  .rating-info img {
+    width: 1.8rem;
+  }
+  .logos p {
+    font-size: 1.6rem;
+  }
+}
+/* Below 592px */
+@media (max-width: 37em) {
+  .right-col {
+    display: none;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .main-info h1 {
+    font-size: 4.4rem;
+  }
+  .text-description {
+    font-size: 1.6rem;
+  }
+  .rating-info p {
+    font-size: 1.6rem;
+  }
+  .rating-info img {
+    width: 2.2rem;
+  }
+  .img-logo {
+    width: 10rem;
+  }
+  .img-companies-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 2.4rem;
+  }
+  .companie--1 {
+    justify-self: end;
+  }
+  .companie--2 {
+    justify-self: start;
+  }
+  .companie--3 {
+    align-self: start;
+    justify-self: end;
+  }
+  .companie--4 {
+    align-self: start;
+    justify-self: start;
+  }
+  .img-companies {
+    width: 12rem;
+  }
+}
